@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Locale;
 
 public class ScreenResolutionRadio extends JFrame {
     static int width = 250, height = 90;
