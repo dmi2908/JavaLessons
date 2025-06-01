@@ -18,7 +18,7 @@ public class ScreenResolutionRadio extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Locale.getISOLanguages();
         setSize(width, height);
-        result = JOptionPane.showConfirmDialog(getParent(),new Object[]{title, options}, String.valueOf(message), JOptionPane.OK_OPTION);
+        result = JOptionPane.showConfirmDialog(getParent(),new Object[]{title, options}, String.valueOf(message), JOptionPane.OK_CANCEL_OPTION);
         if (Integer.parseInt(String.valueOf(result)) == JOptionPane.OK_OPTION) {
             for(int i = 0; i < options.length; i++) {
     	        if (options[i].isSelected()) {
