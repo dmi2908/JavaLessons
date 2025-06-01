@@ -1,7 +1,4 @@
 import javax.swing.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.util.Locale;
 
 public class ScreenResolutionRadio extends JFrame {
     static int width = 250, height = 90;
